@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  remote_user: root
   tasks:
     - name: Make sure we have all required packages
       yum:
