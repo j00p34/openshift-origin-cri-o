@@ -29,6 +29,7 @@
         - skopeo-containers
         - NetworkManager
         - docker
+        - ostree-devel
     - name: Make testing directories to conform to testing standards
       file:
         path: "{{ item }}"
